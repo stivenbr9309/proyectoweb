@@ -8,12 +8,12 @@
             <!--<style> header {background: green;}</style>, Estilo dentro del html-->
       </head>
       <body>
-            <header>            
+            <header class="header">            
             <!--<header style="color:red; background: blue;"> Estilo en linea  -->
-               <figure>
+               <figure class="header"> 
                      <img src="imagenes/Developer.jpg"alt="Logo de http://stivenborja.com"> logo
                </figure>   
-               <nav>                 
+               <nav class="menu">                 
                   <ol>
                     <li>
                         <a class="link" href="#portafolio">Portafolio</a>                        
@@ -28,36 +28,38 @@
                   </ol>   
                </nav>   
             </header> 
-            <section class="portafolio">
+            <section class="hero">
                   <h1>
                        Hola! Soy <strong>Stiven Borja</strong> desarrollador <br/> <strong>Javascript</strong> con <br/> Pasi&oacute;n por el <strong>desarrollo</strong> 
                   </h1>
                   <img src="imagenes/hero.jpg" width="500" height="300" alt="imagen principal del sitio">
             </section>              
-            <section id="portafolio" class="portafolio">
+            <section id="portafolio" class="portfolio">
                   <h2>Portafolio(Proyectos Destacados)</h2>
-                  <article>
-                        <h3>Video</h3>  
-                        <h6>React Native / React</h6>  
-                        <p><small><strong>Fecha: 27/04/2020</strong></small></p>
-                        <p><small><strong>Puedes verlo aqui</strong></small></p>
-                        <p><small><strong>Proyecto con mi descripci&oacute;n personal y habilidades</strong></small></p>
-                    <img src="imagenes/developer3.jpg" width="500" height="300" alt="Proyecto propio"/>
+                  <article class="project">
+                        <h3 class="project-title">Video</h3>  
+                        <h6 class="project-course">React Native / React</h6>  
+                        <p class="project-date"><small><strong>Fecha: 27/04/2020</strong></small></p>
+                        <p class="project-url"><small><strong>Puedes verlo aqui</strong></small></p>
+                        <p class="project-description"><small><strong>Proyecto con mi descripci&oacute;n personal y habilidades</strong></small></p>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" src="imagenes/developer3.jpg" width="500" height="300" alt="Proyecto propio"/>
+                    </figure>                        
                   </article>
             </section>              
             <section id="experiencia">
                   <h2>Mas sobre mi experiencia</h2>
-                  <article>
-                     <figure>
-                           <img src="imagenes/developer2.jpg" width="500" height="300" alt="imagen principal del sitio"/>
+                  <article class="experience">
+                     <figure class="experience-imageContainer">
+                           <img class="experience-image" src="imagenes/developer2.jpg" width="500" height="300" alt="imagen principal del sitio"/>
                      </figure>   
-                        <h3>Analista funcional</h3>
-                        <p>Analisis tecnico de necesidades de negocio</p>
-                        <a href="https://www.youtube.com/watch?v=lkfZwVPKbsE">Ver enlace</a>
+                        <h3 class="experience-title">Analista funcional</h3>
+                        <p class="experience-description">Analisis tecnico de necesidades de negocio</p>
+                        <a class="experience-url" href="https://www.youtube.com/watch?v=lkfZwVPKbsE">Ver enlace</a>
                   </article>  
             </section>              
-            <section id="contacto">
-                  <form action="/suscripcion/">
+            <section id="contacto" class="contact">
+                  <form action="/suscripcion/" class="form-email">
                         <!--<label for="email">Déjame tú email</label>  Sirve para generar un hipervinculo 
                         hacia un elemento tener presente q el tag q recibe este clic debe tener el atributo id--> 
                         <h3>¿Creamos algo juntos?</h3>                             
