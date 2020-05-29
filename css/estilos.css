@@ -42,6 +42,7 @@ h1{
       line-height: 1.5em;
       letter-spacing: -.2px;
       color:white;
+      margin: 100px 150px 70px 30px;
    /*   text-transform: uppercase;*/
    /*   text-decoration: dashed;*/
 }
@@ -59,6 +60,22 @@ h1 strong{
       background-position-x: right;
 }
 
+.project{
+      /* border-top: 10px solid red;
+      border-right: 10px solid green;
+      border-left: 10px solid orange;
+      border-bottom: 10px solid pink; */
+      /* border-color: red;
+      border-width: 15px;
+      border-style: solid; */
+      border: 1px solid gray;
+      border-radius: 10px;
+      /* border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px; */
+      margin-bottom:15px;
+}
 .project-details{
       width: 500px;
 }
