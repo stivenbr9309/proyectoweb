@@ -53,6 +53,15 @@ h1 strong{
       color:#026fff;
 }
 
+h2{
+      color: #026fff;
+      text-transform: uppercase;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 40px;
+}
+
 ol,
 ul{
       margin: 0;
@@ -77,6 +86,7 @@ figure{
 
 .portfolio{
       background: #fafafa;
+      padding: 20px;
 }
 
 
@@ -94,10 +104,35 @@ figure{
       border-top-right-radius: 50px;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px; */
-      margin: 10px;
+      /* margin: 10px; */
       margin-bottom:15px;
       padding: 20px;
       background: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.project-date,
+.project-course,
+.project-url{
+      margin: 10px 0;
+}
+
+.project-description{
+      font-size: 20px;
+}
+
+.project strong{
+      font-family: 'Fjalla one', sans-serif;
+}
+/* .project-date{
+      margin: 10px 0;
+} */
+
+.project-title{
+      font-size: 30px;
+      margin-top:0;
 }
 .project-details{
       width: 500px;
@@ -112,7 +147,8 @@ figure{
       color:white;
       display: flex;
       justify-content: space-between;
-      height: 90px;
+      height: 70px;
+      align-items: center;
 }
 
 .menu{
@@ -149,5 +185,22 @@ figure{
       margin: 5px;
       border: 1px solid red;
       flex-shrink: 0;
+}
+
+.footer{
+      color: white;
+      background-color: #657280;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* align-items: center; */
+}
+
+.footer img{
+      vertical-align: middle;
+}
+
+.footer a{
+      color: white;
 }
 
