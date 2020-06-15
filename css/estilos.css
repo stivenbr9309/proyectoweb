@@ -204,3 +204,47 @@ figure{
       color: white;
 }
 
+.experience-list{
+      display: flex;
+}
+
+.event-list-title{
+      margin-left: 10px;
+}
+
+.experience{
+      margin: 10px;
+      width: 480px;
+      flex-shrink: 0;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #f4fbff;
+}
+
+.experience img{
+      width: 480px;
+      height: 200px;
+      object-fit: cover;
+}
+
+.experience-detail{
+      margin: 20px 40px;
+      margin-top: -40px;
+      background-color: white;
+      position: relative;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+}
+
+.experience-description{
+      text-align: left;
+}
+
+.experience-url{
+      color: #056fff;
+      border: 1px solid;
+      padding: 5px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+}
