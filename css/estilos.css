@@ -76,7 +76,7 @@ figure{
 .hero{
       height: 300px;
       /* background-image: url('../imagenes/hero.jpg'); */
-      background-color: #1b2127;
+      background-color: #03072c;
       /* background-size: 500px 300px; */
       /* background-repeat: no-repeat; */
       /* background-position-x: right; */
@@ -148,7 +148,7 @@ figure{
 
 }
 .header {
-      background-color: #1b2127;
+      background-color: #03072c;
       color:white;
       display: flex;
       justify-content: space-between;
@@ -194,7 +194,7 @@ figure{
 
 .footer{
       color: white;
-      background-color: #657280;
+      background-color:#03072c;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -203,6 +203,7 @@ figure{
 
 .footer img{
       vertical-align: middle;
+      height: 50px;
 }
 
 .footer a{
